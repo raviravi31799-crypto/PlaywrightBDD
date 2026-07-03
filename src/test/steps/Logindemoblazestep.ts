@@ -8,7 +8,7 @@ import { CustomWorld } from '../../hooks/world';
 
 
 
-Given('the user launched the demoblaze application', async function (this:CustomWorld) {
+Given('the user launched the demoblaze application',{timeout:50000},async function (this:CustomWorld) {
 //    browser=await chromium.launch({headless:false});
 //    page=await browser.newPage();
       await this.page.goto("https://demoblaze.com/");
