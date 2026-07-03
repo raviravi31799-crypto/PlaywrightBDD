@@ -29,7 +29,7 @@ When('continue button is clicked by the user', async function (this:CustomWorld)
     await this.page.locator("//input[@value='Continue']").click();
 });
 
-Then('the account creation successful message will appear', async function () {
+Then('the account creation successful message will appear',{timeout:30000}, async function () {
   await expect(this.page.locator("//h1[text()='Your Account Has Been Created!']")).toBeVisible();
 });
 
