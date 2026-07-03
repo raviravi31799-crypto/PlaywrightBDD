@@ -1,0 +1,208 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-in-demoblaze-application;valid-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Valid login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 561785699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user launched the demoblaze application",
+            "match": {
+              "location": "src\\test\\steps\\Logindemoblazestep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3592797899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "clicks on Loginlink on homepage",
+            "match": {
+              "location": "src\\test\\steps\\Logindemoblazestep.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98608300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user passes the username \"Admin@5\" and password \"12345\"",
+            "match": {
+              "location": "src\\test\\steps\\Logindemoblazestep.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 204712400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user clicks loginbutton",
+            "match": {
+              "location": "src\\test\\steps\\Logindemoblazestep.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 294183700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the user is able to see Welcome text with username",
+            "match": {
+              "location": "src\\test\\steps\\Logindemoblazestep.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3025776099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 384543799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-in-demoblaze-application",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login in demoblaze application",
+    "tags": [],
+    "uri": "src\\test\\features\\Logindemoblaze.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "create-account-in-tutorials-ninja;register-with-required-credentials",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Register with required credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 634940000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the application is launched by the user",
+            "match": {
+              "location": "src\\test\\steps\\Tutorialsregisterstep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1453122300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks Myaccount and selects register",
+            "match": {
+              "location": "src\\test\\steps\\Tutorialsregisterstep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 451017299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user enters firstname \"Siva\" ,lastname \"Kumar\",email \"Sivaadmin25@gmail.com\",phone \"1234567890\",password \"Sivaram28\" and cpassword \"Sivaram28\"",
+            "match": {
+              "location": "src\\test\\steps\\Tutorialsregisterstep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 407632100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "continue button is clicked by the user",
+            "match": {
+              "location": "src\\test\\steps\\Tutorialsregisterstep.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1336044100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the account creation successful message will appear",
+            "match": {
+              "location": "src\\test\\steps\\Tutorialsregisterstep.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55306300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 361510000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "create-account-in-tutorials-ninja",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Create account in Tutorials Ninja",
+    "tags": [],
+    "uri": "src\\test\\features\\Tutorialsregister.feature"
+  }
+]
